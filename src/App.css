@@ -1,0 +1,14 @@
+.App {
+    display: flex;
+    
+}
+
+@media (max-width: 768px) {
+    .App {
+        flex-wrap: wrap;
+    }
+}
+
+.Container {
+    width:50%;
+}

@@ -1,0 +1,55 @@
+.Header{
+    background-image: url("../../assets/images/post-page.jpg");
+
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fbfbfd;
+    border-bottom: 2px solid #F4f4f9;
+
+  
+    background-position: center;
+    background-size: cover;
+
+    height: 200px;
+   
+}
+
+.Header h4 {
+    color: orange;
+    text-transform: capitalize;
+    margin: 0px 0px 15px;
+    font-size: 42px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    padding: 100px;
+}
+
+
+.Container {
+    padding-top: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 1.42857143;
+}
+
+@media (min-width: 1200px) {
+    .Container {
+        width: 1170px;
+    }
+}
+
+@media (min-width: 992px) {
+    .Container {
+        width: 970px;
+    }
+}
+
+
+    
+.Row {
+    margin-right: -15px;
+    margin-left: -15px;
+}

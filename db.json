@@ -1,0 +1,128 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Chrome Extension Protects Against JavaScript-Based CPU Side-Channel Attacks",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...",
+      "image": "./images/post-2.jpg",
+      "category": "JavaScript",
+      "date": "March 27, 2018"
+    },
+    {
+        "id": "2",
+        "title": "Why Node.js Is The Coolest Kid On The Backend Development Block!",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...",
+        "image": "./images/post-3.jpg",
+        "category": "CSS",
+        "date": "March 27, 2018"
+    }
+    ,
+    {
+        "id": "3",
+        "title": "Ask HN: Does Anybody Still Use JQuery?",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...",
+        "image": "./images/post-4.jpg",
+        "category": "JQuery",
+        "date": "March 27, 2018"
+    }
+  ],
+
+  "categories": [
+    {
+      "id": "1",
+      "post_id": "1",
+      "name": "JavaScript",
+      "date": "March 27, 2018"
+    },
+    {
+      "id": "2",
+      "post_id": "2",
+      "name": "Web Design",
+      "date": "March 27, 2018"
+    },
+    {
+      "id": "3",
+      "post_id": "3",
+      "name": "Css",
+      "date": "March 27, 2018"
+    },
+    {
+
+      "id": "4",
+      "post_id": "4",
+      "name": "Jquery",
+      "date": "March 27, 2018"
+    }
+  ],
+
+  "tags": [
+    {
+      "id": "1",
+      "post_id": "1",
+      "name": "Chrome",
+      "date": "March 27, 2018"
+    },
+    {
+      "id": "2",
+      "post_id": "1",
+      "name": "Tutorial",
+      "date": "March 27, 2018"
+    },
+    {
+      "id": "3",
+      "post_id": "2",
+      "name": "Backend",
+      "date": "March 27, 2018"
+    },
+    {
+
+      "id": "4",
+      "post_id": "2",
+      "name": "Css",
+      "date": "March 27, 2018"
+    }
+    ,
+    {
+
+      "id": "4",
+      "post_id": "3",
+      "name": "Backend",
+      "date": "March 27, 2018"
+    },
+    {
+
+      "id": "5",
+      "post_id": "3",
+      "name": "Design",
+      "date": "March 27, 2018"
+    },
+    {
+
+      "id": "6",
+      "post_id": "3",
+      "name": "Development",
+      "date": "March 27, 2018"
+    },
+    {
+
+      "id": "7",
+      "post_id": "3",
+      "name": "JQuery",
+      "date": "March 27, 2018"
+    },
+    {
+
+      "id": "8",
+      "post_id": "3",
+      "name": "JavaScript",
+      "date": "March 27, 2018"
+    },
+    {
+
+      "id": "9",
+      "post_id": "3",
+      "name": "Website",
+      "date": "March 27, 2018"
+    }
+  ]
+}

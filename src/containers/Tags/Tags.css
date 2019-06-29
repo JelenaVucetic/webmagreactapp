@@ -1,0 +1,35 @@
+.Tags {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    box-sizing: border-box;
+    
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.Tags li {
+    display: inline-block;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    text-align: -webkit-match-parent;
+    list-style: none;
+}
+.Tags a{
+    display: block;
+    color: #fff;
+    background-color: #212631;
+    padding: 3px 10px;
+    font-weight: 600;
+    border-radius: 2px;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+    text-decoration: none;
+}

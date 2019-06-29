@@ -1,0 +1,37 @@
+
+.Title {
+    margin-bottom: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
+
+.Categories {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.Category {
+    display: block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eceef2;
+}
+
+.Category a {
+    display: block;
+    transition: 0.2s color;
+    font-weight: 600;
+    color: #212631;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.Category span {
+    float: right;
+    color: #fff;
+    background-color: #4BB92F;
+    padding: 0px 5px;
+    font-weight: 600;
+    border-radius: 2px;
+}

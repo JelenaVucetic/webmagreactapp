@@ -1,0 +1,44 @@
+.Post { 
+    margin-bottom: 40px;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.Post img {
+    width: 300px;
+    height:100%;
+}
+
+.PostMeta {
+    max-width: 50%;
+}
+.PostMeta a {
+    text-decoration: none;
+    border: 1px solid orange;
+    border-radius: 2px;
+    padding: 2px 5px;
+    background-color: orange;
+    margin: 0 20px;
+    color:white;
+}
+.PostMeta span {
+    font-size: 13px;
+}
+
+.PostMeta h3 {
+    margin: 20px 20px;
+}
+
+.PostMeta p {
+    margin: 0 20px;
+    font-weight: 100;
+    color: gray;
+}
+
+.CoverImage {
+    margin-bottom: 40px;
+    height: 300px;
+    width: 100%;
+   
+}
