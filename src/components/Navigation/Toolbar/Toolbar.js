@@ -4,7 +4,7 @@ import Logo from '../../../assets/images/logo.png'
 const toolbar = (props) => (
     <header className={classes.Toolbar}>
         <div className={[classes.Container, classes.NavSlide].join(' ')}>
-            <img src={Logo} />
+            <img src={Logo} alt='img'/>
             <div className={classes.Categories}>
                 <div>Web Design</div>
                 <div>Java Script</div>

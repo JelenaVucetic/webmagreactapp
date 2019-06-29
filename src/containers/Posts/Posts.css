@@ -5,11 +5,10 @@
     font-size: 16px;
     font-weight: 300;
 }
-.Post img {
+ .Post img {
     width: 300px;
     height:100%;
-}
-
+} 
 .PostMeta {
     max-width: 50%;
 }
