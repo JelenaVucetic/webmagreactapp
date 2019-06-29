@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './Toolbar.css';
-import Logo from '../../../assets/images/logo.png'
+import Logo from '../../../assets/images/logo.png';
+
 const toolbar = (props) => (
     <header className={classes.Toolbar}>
         <div className={[classes.Container, classes.NavSlide].join(' ')}>

@@ -5,7 +5,7 @@ import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
 import Footer from '../Footer/Footer';
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
 
-
+import { Route } from 'react-router-dom';
 
 class Layout extends Component {
     state = {
@@ -29,13 +29,20 @@ class Layout extends Component {
             <header className={classes.Header}>
                 <h4>Welcome</h4>
             </header>
-            <main className={classes.Container}>
+            
+
+            <Route path='/' exact render={() =>
+                <main className={classes.Container}>
                 <div className={classes.Row}>
                     {this.props.children}
                 </div>
             </main>
+                }/>
+              
+            <Route path='/about' exact render={()=> <h1>About us</h1>} />
+    
            <Footer />
-        </Aux>
+        </Aux> 
         )
     }
 }

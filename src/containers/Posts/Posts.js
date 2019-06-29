@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Aux from '../../hoc/Aux';
 import classes from './Posts.css';
 
-
 class Posts extends Component {
     state = {
         posts: []
@@ -15,6 +14,7 @@ class Posts extends Component {
             .then(data => {
                 let posts = data.map((post, index) => {
                     return (
+                        
                         <div key={index} className={classes.Post}>
                             <div>
                                 <img src={post.image} alt="img"/>

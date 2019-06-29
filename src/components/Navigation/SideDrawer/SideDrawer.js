@@ -1,6 +1,6 @@
 import React from 'react'; 
 import classes from './SideDrawer.css';
-
+import {  Link } from 'react-router-dom';
 
 const sideDrawer = (props) => (
         <div style ={{
@@ -9,8 +9,8 @@ const sideDrawer = (props) => (
                 }}
             className={classes.SideDrawer}>  
             <button onClick={props.clicked}> x </button>
-            <h2>Home</h2>
-            <h2>About Us</h2>
+            <h2><Link to="/">Home</Link></h2>
+            <h2><Link to='/about'>About Us </Link></h2>
             <h2>Join Us</h2>
             <h2>Advertisement</h2>
             <h2>Contacts</h2>
