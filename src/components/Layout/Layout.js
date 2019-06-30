@@ -40,6 +40,8 @@ class Layout extends Component {
                 }/>
               
             <Route path='/about' exact render={()=> <h1>About us</h1>} />
+
+            <Route path='/post' exact render={()=> <h1>Single post goes here</h1>} />
     
            <Footer />
         </Aux> 

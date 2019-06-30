@@ -13,6 +13,11 @@
     transition: 0.3s all;
 }
 
+.SideDrawer a {
+    text-decoration: none;
+    color: black;
+}
+
 .SideDrawer button {
     padding: 0;
     border: none;

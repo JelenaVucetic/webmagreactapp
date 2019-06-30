@@ -12,7 +12,12 @@
 .PostMeta {
     max-width: 50%;
 }
+
 .PostMeta a {
+    text-decoration: none;
+    color: black;
+}
+.Category {
     text-decoration: none;
     border: 1px solid orange;
     border-radius: 2px;
